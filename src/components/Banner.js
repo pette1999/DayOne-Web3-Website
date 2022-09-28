@@ -15,7 +15,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "MOVE", "WEB3", "APTOS" ];
+  const toRotate = [ "MOVE", "WEB 3", "APTOS" ];
   const period = 2000;
 
   useEffect(() => {
@@ -64,9 +64,9 @@ export const Banner = () => {
               <TrackVisibility>
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Dayone Web3</span>
-                  <h1>{`We are here to explore`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "MOVE", "WEB3", "APTOS" ]'><span className="wrap">{text}</span></span></h1>
-                    <p>We are the FIRST #Web3 full education platform, makes it much easier for you to explore how you can combine your professional skills with blockchain with structured hands-on courses designed by experienced industry smart contract engineer and backed by major Layer1 blockchain. </p>
+                  <span className="tagline">Dayone Web 3</span>
+                  <h1>{`We are here to explore`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "MOVE", "WEB 3", "APTOS" ]'><span className="wrap">{text}</span></span></h1>
+                    <p>We are the FIRST #Web 3 full education platform, makes it much easier for you to explore how you can combine your professional skills with blockchain with structured hands-on courses designed by experienced industry smart contract engineer and backed by major Layer1 blockchain. </p>
                     <Router>
                       <HashLink smooth to="#connect">
                         <button>

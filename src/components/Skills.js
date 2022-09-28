@@ -6,7 +6,6 @@ import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
-import colorSharpRight from "../assets/img/color-sharp2.png"
 import { Brands } from "./Brands";
 
 export const Skills = () => {
@@ -38,7 +37,7 @@ export const Skills = () => {
                   <Brands />
                   <div className="skill-bx wow zoomIn">
                       <h2>One Platform does it all</h2>
-                      <p>Our lead instructors are from Meta and Google, our advisors are from Aptos, Nansen, Certik etc. <br></br>Outcome-driven Move bootcamp with clear deliverables and milestones. <br></br>Build a web3+ community with high-potential Move developers.</p>
+                      <p>Our lead instructors are from Meta and Google, our advisors are from Aptos, Nansen, Certik etc. <br></br>Outcome-driven Move bootcamp with clear deliverables and milestones. <br></br>Build a web 3+ community with high-potential Move developers.</p>
                       <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                           <div className="item">
                               <img src={meter1} alt="Image" />
@@ -50,7 +49,7 @@ export const Skills = () => {
                           </div>
                           <div className="item">
                               <img src={meter3} alt="Image" />
-                              <h5>Web3+ Community</h5>
+                              <h5>Web 3+ Community</h5>
                           </div>
                       </Carousel>
                   </div>
