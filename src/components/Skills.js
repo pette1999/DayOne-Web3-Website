@@ -37,7 +37,7 @@ export const Skills = () => {
                   <Brands />
                   <div className="skill-bx wow zoomIn">
                       <h2>One Platform does it all</h2>
-                      <p>Our lead instructors are from Meta and Google, our advisors are from Aptos, Nansen, Certik etc. <br></br>Outcome-driven Move bootcamp with clear deliverables and milestones. <br></br>Build a Web 3+ community to unblock your potential.</p>
+                      <p>Our outcome-driven Move bootcamp are with clear deliverables and milestones.<br></br>Our Web 3+ community provides deeper insights and connects you with the whole Web 3 world.</p>
                       <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                           <div className="item">
                               <img src={meter1} alt="Image" />
