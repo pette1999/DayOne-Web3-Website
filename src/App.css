@@ -597,10 +597,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
-  padding: 5em 1em;
+  padding: 5em 5em;
   margin-bottom: 80px;
   margin-top: -122px;
-  text-align: center;
+}
+.newsletter-s {
+  background: #FFFFFF;
+  border-radius: 30px;
+  color: #121212;
+  padding: 2em 2em;
+  margin-bottom: 80px;
+  margin-top: -122px;
 }
 .newsletter-bx h3 {
   font-weight: 700;
@@ -609,9 +616,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   width: 100%;
 }
+.newsletter-s h3 {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 1.2em;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
 .new-email-bx {
   background: #fff;
-  padding: 5px;
+  padding: 5x;
+  border-radius: 20px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.new-email-s {
+  background: #fff;
+  padding: 5x;
   border-radius: 20px;
   position: relative;
   z-index: 0;
@@ -620,6 +646,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 .new-email-bx::before {
+  content: "";
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  border-radius: 20px;
+  position: absolute;
+  z-index: -1;
+  top: -1px;
+  left: -1px;
+  bottom: -1px;
+  right: -1px;
+}
+.new-email-s::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   border-radius: 20px;
@@ -641,8 +678,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   right: 0;
 }
+.new-email-s::after {
+  content: "";
+  background: #fff;
+  border-radius: 20px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 .new-email-bx input {
   width: 100%;
+  color: #121212;
+  font-weight: 500;
+  background: transparent;
+  border: 0;
+  padding: 0 15px;
+}
+.new-email-s input {
+  width: 80%;
   color: #121212;
   font-weight: 500;
   background: transparent;
@@ -652,6 +708,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 20px 65px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 18px;
+}
+.new-email-s button {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  padding: 1.2em;
+  width: 30%;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.5px;
