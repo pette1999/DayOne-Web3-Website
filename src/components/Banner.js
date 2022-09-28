@@ -65,16 +65,15 @@ export const Banner = () => {
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Dayone Web 3</span>
-                  <h1>{`We are here to explore`} <span className="txt-rotate" dataPeriod="700" data-rotate='[ "MOVE", "WEB 3", "APTOS" ]'><span className="wrap">{text}</span></span></h1>
-                    <p>We are the FIRST #Web 3 full education platform, makes it much easier for you to explore how you can combine your professional skills with blockchain with structured hands-on courses designed by experienced industry smart contract engineer and backed by major Layer1 blockchain. </p>
-                    <Router>
-                      <HashLink smooth to="#connect">
-                        <button>
-                          Let’s Connect <ArrowRightCircle size={25} />
-                        </button>
-                      </HashLink>
-                    </Router>
-                  
+                  <h1>{`We are here to explore`} <span className="txt-rotate" dataPeriod="700" data-rotate='[ "MOVE", "WEB 3", "APTOS" ]'><span className="wrap"><br></br>{text}</span></span></h1>
+                  <p>We are the FIRST #Web 3 full education platform, makes it much easier for you to explore how you can combine your professional skills with blockchain with structured hands-on courses designed by experienced industry smart contract engineer and backed by major Layer1 blockchain. </p>
+                  <Router>
+                    <HashLink smooth to="#connect">
+                      <button>
+                        Let’s Connect <ArrowRightCircle size={25} />
+                      </button>
+                    </HashLink>
+                  </Router>
                 </div>}
               </TrackVisibility>
             </Col>
