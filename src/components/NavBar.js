@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/dayzero.png';
-import dayzero from '../assets/img/dayone-logo.png';
+import dayzero from '../assets/img/day1.png';
 import linkedin from '../assets/img/linkedin.svg';
 import twitter from '../assets/img/twitter.svg';
 import discord from '../assets/img/discord.svg';
