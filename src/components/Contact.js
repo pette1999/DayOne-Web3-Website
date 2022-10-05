@@ -42,7 +42,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="contact">
+    <section className="contact" id="connect" name="connect">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -57,7 +57,6 @@ export const Contact = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>
-                  <span id="connect" name="connect"></span>
                   <a href="#connect" aria-hidden="true"> </a>
                   Challenge Kick off Events
                 </h2>
