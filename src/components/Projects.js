@@ -37,7 +37,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <h3>Dayone Move Workshop / Office hours</h3>
                       <p><b>Time:</b> 6 weeks, starts from Oct 31, 2022<br></br></p>
-                      <p><b>Dayone</b> will provide Move workshop and course for challenge participants.<br></br>Our Web 3 course covers <br/>* Comprehensive understanding of Web 3 fundamentals<br/>* Tech stack including ETH and Aptos, Solidity and Move<br/>* Hands-on end-to-end industrial level Web 3 project experiences<br/><b>Aptos Labs</b> will hold an 1h office hour once per week.</p>
+                      <p><b>The Move workshop covers:</b> <br/>* Comprehensive understanding of Web 3 fundamentals<br/>* Tech stack including ETH and Aptos, Solidity and Move<br/>* Hands-on end-to-end industrial level Web 3 project experiences<br/><b>Aptos Labs</b> will hold an 1h office hour once per week.</p>
                       {/* <h4>Join the waitlist, Details Coming Soon...</h4> */}
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
