@@ -21,10 +21,6 @@ export const Banner = () => {
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
-      window.on('hashchange', function (){
-        var top = (window.location.hash).offset().top;
-        (window).scrollTop(top);
-      })
     }, delta);
 
     return () => { clearInterval(ticker) };
