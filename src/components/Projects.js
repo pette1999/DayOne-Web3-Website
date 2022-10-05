@@ -14,7 +14,7 @@ export const Projects = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Move Student Challenge</h2>
                 <h3>DAYONE x APTOS x STANFORD</h3>
-                <p>Dayone, co-hosted with Aptos, will hold the first Move Student Challenge in Stanford University. We hope to bring together over 1,000 students to build the future in Web 3.0 using Move starting from Stanford University. You’ll be hacking for 36 hours straight but before that we will host a workshop to teach Move . But there will be yoga breaks, home breakfasts and maybe even puppies. Whether you’re a seasoned veteran or just getting started, we’ve got your back every step of the way. </p>
+                <p>Dayone, co-hosted with Aptos, will hold the first Move Student Challenge in Stanford University. We hope to bring together over 1,000 students to build the future in Web 3.0 using Move starting from Stanford University. You’ll be hacking for 36 hours straight but before that we will host a workshop to teach anything you need to succeed! There will be home breakfasts, prizes and rewards, and job opportunies to Top Web 3 companies! . But there will be yoga breaks, home breakfasts and maybe even puppies. Whether you’re a seasoned veteran or just getting started, we’ve got your back every step of the way. </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -29,8 +29,8 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <h3>Challenge Kick off Events</h3>
-                      <p><b>Time:</b> Oct 14, 2022 12pm - 1pm<br></br><b>Location:</b> TBD<br></br></p>
+                      <h3>CKick off Information Session</h3>
+                      <p><b>Time:</b> Oct 14, 2022 12pm - 1pm<br></br><b>Location:</b> Engineering Quad<br></br></p>
                       <p>Topics include Dayone intro, Aptos intro and Stanford Move Student Challenge intro.<br></br> Prerequisite of Move Student Challenge: as long as you are eager to learn Web 3.0!</p>
                       <h4>Join the Waiting list, Details Coming Soon!</h4>
                     </Tab.Pane>
