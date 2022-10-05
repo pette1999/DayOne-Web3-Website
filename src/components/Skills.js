@@ -36,7 +36,7 @@ export const Skills = () => {
               <div className="col-12">
                   <Brands />
                   <div className="skill-bx wow zoomIn">
-                      <h2>One Platform does it all</h2>
+                      <h2>One Platform Does It All</h2>
                       <p>Our outcome-driven Move bootcamp are with clear deliverables and milestones.<br></br>Our Web 3+ community provides deeper insights and connects you with the whole Web 3 world.</p>
                       <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                           <div className="item">
