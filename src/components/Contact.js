@@ -91,8 +91,8 @@ export const Contact = ({status, message, onValidated}) => {
                 </h2>
                 <p>Join to learn what's next after Bitcoin and Ethereum</p>
                 {status === 'sending' && <Alert>Sending...</Alert>}
-                {status === 'error' && <Alert variant="danger">{message}</Alert>}
-                {status === 'success' && <Alert variant="success">{message}</Alert>}
+                {(status === 'error') && <Alert variant="danger">{message}</Alert> && setButtonText("Error")}
+                {status === 'success' && <Alert variant="success">You have joined the RSVP list, Thank you!</Alert> && setButtonText("Sent")}
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">
