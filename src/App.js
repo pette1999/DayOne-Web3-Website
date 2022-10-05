@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { useState, useEffect } from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
@@ -9,6 +10,17 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 function App() {
+  useEffect(() => {
+    if(document.location.hash === '#connect') {
+      setTimeout(()=> {
+          document
+            .querySelector("#connect")
+            .scrollIntoView({ behavior: "smooth", block: "start" })
+      }, 300)
+    }
+  })
+  
+
   return (
     <div className="App">
       <NavBar />

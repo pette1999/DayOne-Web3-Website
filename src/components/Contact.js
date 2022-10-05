@@ -42,7 +42,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -56,7 +56,11 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Challenge Kick off Events</h2>
+                <h2>
+                  <span id="connect" name="connect"></span>
+                  <a href="#connect" aria-hidden="true"> </a>
+                  Challenge Kick off Events
+                </h2>
                 <p>Join to learn what's next after Bitcoin and Ethereum</p>
                 <form onSubmit={handleSubmit}>
                   <Row>
