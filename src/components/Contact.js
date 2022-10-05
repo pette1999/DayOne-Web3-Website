@@ -11,7 +11,7 @@ export const Contact = () => {
     email: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
+  const [buttonText, setButtonText] = useState('RSVP');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -56,8 +56,8 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Join Our Community</h2>
-                <p>Subscribe to our Newsletter & Never miss latest updates</p>
+                <h2>Challenge Kick off Events</h2>
+                <p>Join to learn what's next after Bitcoin and Ethereum</p>
                 <form onSubmit={handleSubmit}>
                   <Row>
                     <Col size={12} sm={6} className="px-1">

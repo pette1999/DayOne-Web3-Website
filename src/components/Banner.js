@@ -66,7 +66,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Dayone Web 3</span>
                   <h1>{`We are here to explore`} <span className="txt-rotate" dataPeriod="700" data-rotate='[ "MOVE", "WEB 3", "APTOS" ]'><span className="wrap"><br></br>{text}</span></span></h1>
-                  <p>We are the FIRST #Web 3 full education platform, makes it much easier for you to explore how you can combine your professional skills with blockchain with structured hands-on courses designed by experienced industry smart contract engineer and backed by major Layer1 blockchain. </p>
+                  <p>Our outcome-driven Move bootcamp has clear deliverables and milestones. Our Web 3+ community provides deeper insights and connects you with the whole Web 3 world. We are the FIRST Web 3 career-driven learning platform for everyone which accelerates your Web 3 onboarding from zero to hero! </p>
                   <Router>
                     <HashLink smooth to="#connect">
                       <button>
