@@ -94,8 +94,8 @@ export const Contact = ({status, message, onValidated}) => {
                 </h2>
                 <p>Join to learn what's next after Bitcoin and Ethereum</p>
                 {status === 'sending' && <Alert>Sending...</Alert>}
-                {(status === 'error') && <Alert variant="danger"><div className="mc__alert mc__alert--error" dangerouslySetInnerHTML={{ __html: message }}/></Alert> && setButtonText("Error! Try Again...")}
-                {status === 'success' && <Alert variant="success"><div className="mc__alert mc__alert--success" dangerouslySetInnerHTML={{ __html: message }}/></Alert>}
+                {(status === 'error') && <Alert variant="danger"><div dangerouslySetInnerHTML={{ __html: message }}/></Alert>}
+                {status === 'success' && <Alert variant="success">Thank you for RSVP!</Alert>}
                 <form onSubmit={handleSubmit}>
                   {status !== "success" ? (
                     <Row>
