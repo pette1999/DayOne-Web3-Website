@@ -18,7 +18,7 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="https://twitter.com/move_dayone"><img src={twitter} alt="Icon" /></a>
-              <a href="#"><img src={discord} alt="Icon" /></a>
+              {/* <a href="#"><img src={discord} alt="Icon" /></a> */}
               <a href="https://www.linkedin.com/company/dayone-edu"><img src={linkedin} alt="Icon" /></a>
             </div>
             <p>Copyright 2022. Fanguard Inc. All Rights Reserved</p>
