@@ -54,7 +54,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/company/dayone-edu" target="_blank"><img src={linkedin} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Join Our Community</span></button>
+                <button className=""><span>Join Our Community</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
