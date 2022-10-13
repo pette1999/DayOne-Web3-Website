@@ -93,7 +93,7 @@ export const Move_Fundamentals = () => {
                           </span>
                         </div>
                       </div>
-                      <a href="#connect" target="_blank" rel="noreferrer">
+                      <a href="#connect" rel="noreferrer">
                         <button className=""><span>Apply for early access</span></button>
                       </a>
                     </div>
