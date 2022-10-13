@@ -42,7 +42,8 @@ export const Move_Fundamentals = () => {
                 <div className="course_content">
                   <div className="course_content1">
                     <p className="course_content1_title">ABOUT THE COURSE</p>
-                    <p className="course_content1_text">Dayone Move Fundamentals is the first comprehensive Move language course that teaches you the fundamentals of Move development on Web 3. This course is officially endorsed by the promising Layer 1 Aptos Labs and includes everything from Computer Science basics (algorithm and data structure) to cryptography to Move unique resource-oriented programming to a fully functional dApp development.<br></br>This course is suitable for all-level learners and will be the all-in-one resource to jumpstart your Web 3 career on the next generation layers. Content is released on a weekly basis with live sessions, video and written instructions and hands-on projects.</p>
+                    <p className="course_content1_text">Dayone Move Fundamentals is the <b>FIRST</b> comprehensive Move language course that teaches you the fundamentals of Move development on Web 3. This course is <b>OFFICIALLY ENDORSED</b> by the promising Layer 1 Aptos Labs and includes everything from Computer Science basics (algorithm and data structure) to cryptography to Move unique resource-oriented programming to a fully functional dApp development.</p>
+                    <p className="course_content1_text">This course is suitable for all-level learners and will be the all-in-one resource to jumpstart your Web 3 career on the next generation layers. Content is released on a weekly basis with live sessions, video and written instructions and hands-on projects.</p>
                     {
                       !isDesktop && (
                         <div className="course_content2">
@@ -89,7 +90,7 @@ export const Move_Fundamentals = () => {
                             <p className="course_content1_skills_stacksSpanText">MASTER MOVE</p>
                           </span>
                           <span className="course_content1_skills_stacksSpan">
-                            <p className="course_content1_skills_stacksSpanText">BUIDL DAPP</p>
+                            <p className="course_content1_skills_stacksSpanText">BUIDL MOVE SMART CONTRACT</p>
                           </span>
                         </div>
                       </div>
@@ -113,7 +114,7 @@ export const Move_Fundamentals = () => {
                         <p className="course_content2_smalltitle_title">time to complete</p>
                         <div className="course_content2_smalltitle2">
                           <img src="https://university.alchemy.com/assets/star.50fa7181.svg" alt="star.50fa7181.svg" className="ourse_content2_smalltitle_img"/>
-                          <p className="course_content2_smalltitle2_p">Intermediate</p>
+                          <p className="course_content2_smalltitle2_p">Beginner</p>
                         </div>
                         <p className="course_content2_smalltitle_title">skill level</p>
                         <div className="course_content2_smalltitle2">
@@ -122,9 +123,9 @@ export const Move_Fundamentals = () => {
                         </div>
                         <p className="course_content2_smalltitle_title">prerequisites</p>
                         <hr aria-orientation="horizontal" className="hr_space"/>
-                        <p className="course_content2_quote">"As a self-taught coder, the bootcamp gave me the right base in blockchain-related development, that I would've definitely squandered a couple years without."</p>
+                        {/* <p className="course_content2_quote">"As a self-taught coder, the bootcamp gave me the right base in blockchain-related development, that I would've definitely squandered a couple years without."</p>
                         <p className="course_content2_quoteName"><b>Krishang N.</b></p>
-                        <p className="course_content2_quoteTitle">Founding Engineer, <a target="_blank" rel="noreferrer" href="https://thirdweb.com/" className="course_content2_quoteTitleCompany">@ThirdWeb</a></p>
+                        <p className="course_content2_quoteTitle">Founding Engineer, <a target="_blank" rel="noreferrer" href="https://thirdweb.com/" className="course_content2_quoteTitleCompany">@ThirdWeb</a></p> */}
                       </div>
                     )
                   }

@@ -10,6 +10,7 @@ import { Footer } from "./components/Footer";
 import { MailchimpForm } from "./components/MailchimpForm"
 import { Move_Fundamentals } from './components/Move_Fundamentals'
 import { Aptos_Project_Bootcamp } from './components/Aptos_Project_Bootcamp'
+import { Stanford_Move_Bootcamp } from './components/Stanford_Move_Bootcamp'
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Stanford_Move_Bootcamp />
       <Move_Fundamentals />
       <Aptos_Project_Bootcamp />
       <MailchimpForm />
