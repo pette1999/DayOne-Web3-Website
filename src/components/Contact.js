@@ -9,11 +9,11 @@ export const Contact = ({status, message, onValidated}) => {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
     
-  const formInitialDetails = {
-    firstName: '',
-    lastName: '',
-    email: ''
-  }
+  // const formInitialDetails = {
+  //   firstName: '',
+  //   lastName: '',
+  //   email: ''
+  // }
 
   useEffect(() => {
     if(status === "success") clearFields();
@@ -25,7 +25,7 @@ export const Contact = ({status, message, onValidated}) => {
     setEmail('');
   }
   
-  const [formDetails, setFormDetails] = useState(formInitialDetails);
+  // const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('RSVP');
   // const [status, setStatus] = useState({});
 
@@ -50,28 +50,6 @@ export const Contact = ({status, message, onValidated}) => {
       MERGE2: lastName,
     });
   }
-
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   setButtonText("Sending...");
-  //   console.log(formDetails)
-  //   let response = await fetch(`https://us13.api.mailchimp.com/3.0/lists${listId}/members`, {
-  //     method: "POST",
-  //     headers: {
-  //       "Content-Type": "application/json;charset=utf-8",
-  //       Authorization: `Basic ${apikey}`,
-  //     },
-  //     body: JSON.stringify(formDetails),
-  //   });
-  //   setButtonText("Send");
-  //   let result = await response.json();
-  //   setFormDetails(formInitialDetails);
-  //   // if (result.code == 200) {
-  //   //   setStatus({ succes: true, message: 'Message sent successfully'});
-  //   // } else {
-  //   //   setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-  //   // }
-  // };
 
   return (
     <section className="contact" id="connect">

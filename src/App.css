@@ -14,7 +14,22 @@
 	src: url('./assets/font/CentraNo2-Book.ttf');
 	font-weight: 400;
 }
+@font-face {
+	font-family: NeueMontreal-Bold;
+	src: url('./assets/font/NeueMontreal-Bold.otf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: RobotoMono;
+	src: url('./assets/font/RobotoMono-Medium.ttf');
+	font-weight: 500;
+}
 
+@font-face {
+	font-family: PublicSans;
+	src: url('./assets/font/PublicSans-Regular.ttf');
+	font-weight: 400;
+}
 /************ Default Css ************/
 * {
   margin: 0;
@@ -45,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 p, a, li, button, ul {
   margin: 0;
   padding: 0;
-  line-height: normal;
+  /* line-height: normal; */
   text-decoration: none;
 }
 
@@ -399,6 +414,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 500;
   text-align: center;
 }
+.project h5 {
+	font-size: 18px;
+	font-weight: 450;
+  text-align: center;
+}
+.address {
+  color:rgb(85, 120, 248);
+}
+.project a {
+  color:#d36ba9
+}
 .project p {
   color: #B8B8B8;
   font-size: 18px;
@@ -514,7 +540,70 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
 
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+.resp-sharing-button__link span {
+  color: white;
+}
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
@@ -587,6 +676,392 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+/************ Course Css ************/
+.course {
+  background: black;
+  padding: 60px 0 110px 0;
+  /* text-align: center; */
+}
+
+.content1 {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 1rem; */
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 48em) {
+  .content1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  
+  .divImg {
+    min-width: 60px;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .course_content {
+    display: flex;
+  }
+
+  .course_content1_skills_stacks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 2rem;
+  }
+
+  .course_content1_skills_stacksInfo {
+    display: flex;
+    flex-direction: row;
+    width: 110%;
+    margin-top: 0.5rem;
+  }
+}
+
+.content1 h2 {
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.imagelogo {
+  width: 60px;
+  height: auto;
+}
+
+.course__title {
+  display: flex;
+}
+
+.course__title_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.divImg {
+  min-width: 60px;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+  /* margin-left: 1rem; */
+}
+
+.course__title_heading {
+  font-family: RobotoMono;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  margin-bottom: 1rem;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.course__title_heading2 {
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: NeueMontreal-Bold;
+  font-weight: 700;
+}
+
+.course_content {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.course_content1 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+}
+
+.course_content1_title {
+  /* margin-top: 3.5rem; */
+  color: rgb(85, 120, 248);
+  font-size: 16px;
+  font-family: NeueMontreal-Bold, Helvetica;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.course_content1_text {
+  margin-right: 2rem;
+  white-space: pre-line;
+  margin-top: 0.5rem;
+  line-height: 150%;
+  font-family: PublicSans;
+  color: white;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+}
+
+.course_content1_skills_text {
+  margin-top: 2rem;
+  color: rgb(85, 120, 248);
+  letter-spacing: 0.05em;
+  font-family: NeueMontreal-Bold, Helvetica, Trebuchet;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.course_content1_skills_stacks {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  margin-right: 2rem;
+}
+
+.course_content1_skills_stacksInfo {
+  /* display: flex;
+  flex-direction: row;
+  width: 110%;
+  margin-top: 0.5rem; */
+}
+
+.course_content1_skills_stacksSpan {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  padding-inline-start: 0.625rem;
+  padding-inline-end: 0.625rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  /* color: white; */
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 14px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #AA367C;
+  border-image: initial;
+}
+
+.course_content1_skills_stacksSpanText {
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: white;
+  font-family: NeueMontreal-Bold, Helvetica, Trebuchet;
+  margin: 0px;
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.course a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.course button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 14px 1.5rem;
+  font-size: 1rem;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.course button span {
+  z-index: 1;
+  position: relative;
+}
+.course button:hover {
+  color: black;
+}
+.course button::before {
+  content: "";
+  background: white;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.course button:hover::before {
+  width: 100%;
+}
+
+.course_content2 {
+  display: block;
+  flex-direction: column;
+  flex-basis: 33.3333%;
+  margin-left: 1rem;
+  margin-right: 4rem;
+}
+
+/* .course_content2_mobile {
+  display: block;
+  flex-direction: column;
+  flex-basis: 33.3333%;
+  margin-left: 1rem;
+  margin-right: 4rem;
+} */
+
+.course_content2_smalltitle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.5rem;
+}
+
+.course_content2_smalltitle_mobile {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.ourse_content2_smalltitle_img {
+  max-width: 100%;
+  width: 20px;
+  height: 24px;
+  display: block;
+}
+
+.course_content2_smalltitle_p {
+  margin-left: 0.5rem;
+  color: white;
+  font-family: NeueMontreal-Bold;
+  margin-bottom: 0;
+}
+
+.course_content2_smalltitle_title {
+  font-weight: 700;
+  color: rgb(148, 150, 152);
+  margin-left: 28px;
+  font-family: RobotoMono;
+  margin-block-end: 1em;
+}
+
+.course_content2_smalltitle2 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-right: 9rem;
+}
+
+.course_content2_smalltitle2_p {
+  margin-left: 0.5rem;
+  color: white;
+  font-family: NeueMontreal-Bold;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.hr_space {
+  opacity: 0.6;
+  border-width: 0px 0px 1px;
+  border-image: initial;
+  border-color: white;
+  border-style: solid;
+  width: 24%;
+  margin-top: 2rem;
+}
+
+.course_content2_quote {
+  width: 105%;
+  font-family: RobotoMono;
+  margin-top: 1.5rem;
+  color: rgb(190, 190, 190);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.course_content2_quoteName {
+  font-weight: 700;
+  line-height: 110%;
+  font-family: RobotoMono;
+  margin-top: 1rem;
+}
+
+.course_content2_quoteTitle {
+  color: white;
+  line-height: 110%;
+  font-family: RobotoMono;
+}
+
+.course_content2_quoteTitleCompany {
+  transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;;
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  cursor: pointer;
+  text-decoration: none;
+  outline: transparent solid 2px;
+  outline-offset: 2px;
+  color: white;
+}
+
+.course__overview {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 25%;
+  border: 2px solid white;
+  border-radius: 24px;
+  /* background: white; */
+  margin-top: 3rem;
+  /* margin-right: 3.5rem; */
+  min-width: 0px;
+  height: 10%;
+}
+
+.course__overview_h2 {
+  font-family: NeueMontreal-Bold;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: rgb(85, 120, 248);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.course__overview_detail {
+  word-break: keep-all;
+  margin-inline-start: 0.5rem;
+  margin-inline-end: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.course__overview_detail1 {
+  color: white;
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-family: RobotoMono;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.course__overview_detail2 {
+  line-height: 150%;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    margin-top: 0.25rem;
+    font-family: PublicSans;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* @media screen and (min-width: 80em)  */
 
 /************ Footer Css ************/
 .footer {

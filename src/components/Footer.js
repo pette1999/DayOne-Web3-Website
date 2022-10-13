@@ -21,7 +21,7 @@ export const Footer = () => {
               {/* <a href="#"><img src={discord} alt="Icon" /></a> */}
               <a href="https://www.linkedin.com/company/dayone-edu"><img src={linkedin} alt="Icon" /></a>
             </div>
-            <p>Copyright 2022. Fanguard Inc. All Rights Reserved</p>
+            <p>Copyright 2022. Fanguard Inc.(dba Dayone Web3) All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
