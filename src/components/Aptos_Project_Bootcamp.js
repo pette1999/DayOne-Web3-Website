@@ -47,11 +47,11 @@ export const Aptos_Project_Bootcamp = () => {
                     {
                       !isDesktop && (
                         <div className="course_content2">
-                          <div className="course_content2_smalltitle_mobile">
+                          {/* <div className="course_content2_smalltitle_mobile">
                             <img src="https://university.alchemy.com/assets/dollar_sign.98fd40c5.svg" alt="dollar_sign.98fd40c5.svg" className="ourse_content2_smalltitle_img"/>
                             <p className="course_content2_smalltitle_p">Free</p>
                           </div>
-                          <p className="course_content2_smalltitle_title">price</p>
+                          <p className="course_content2_smalltitle_title">price</p> */}
                           <div className="course_content2_smalltitle2">
                             <img src="https://university.alchemy.com/assets/watch.9764a10b.svg" alt="watch.9764a10b.svg" className="ourse_content2_smalltitle_img"/>
                             <p className="course_content2_smalltitle2_p">8 weeks</p>
@@ -102,11 +102,11 @@ export const Aptos_Project_Bootcamp = () => {
                   {
                     isDesktop && (
                       <div className="course_content2_mobile">
-                        <div className="course_content2_smalltitle">
+                        {/* <div className="course_content2_smalltitle">
                           <img src="https://university.alchemy.com/assets/dollar_sign.98fd40c5.svg" alt="dollar_sign.98fd40c5.svg" className="ourse_content2_smalltitle_img"/>
                           <p className="course_content2_smalltitle_p">Free</p>
                         </div>
-                        <p className="course_content2_smalltitle_title">price</p>
+                        <p className="course_content2_smalltitle_title">price</p> */}
                         <div className="course_content2_smalltitle2">
                           <img src="https://university.alchemy.com/assets/watch.9764a10b.svg" alt="watch.9764a10b.svg" className="ourse_content2_smalltitle_img"/>
                           <p className="course_content2_smalltitle2_p">8 weeks</p>
