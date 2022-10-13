@@ -51,7 +51,7 @@ export const Projects = () => {
                       <h3>Dayone Move Workshop / Office hours</h3>
                       <p><b>Time:</b> 6 weeks, starts from Oct 31, 2022<br></br></p>
                       <p><b>The Move workshop covers:</b> <br/>* Comprehensive understanding of Web 3 fundamentals<br/>* Tech stack including ETH and Aptos, Solidity and Move<br/>* Hands-on end-to-end industrial level Web 3 project experiences<br/><b>Aptos Labs</b> will hold an 1h office hour once per week.</p>
-                      {/* <h4>Join the waitlist, Details Coming Soon...</h4> */}
+                      <h4>Check "Stanford Move Challenge Bootcamp" below for more workshop details</h4>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <h3>Onsite Challenge</h3>
