@@ -43,7 +43,7 @@ export const Aptos_Project_Bootcamp = () => {
                   <div className="course_content1">
                     <p className="course_content1_title">ABOUT THE COURSE</p>
                     <p className="course_content1_text">Dayone Aptos Projects Bootcamp is the first project-based bootcamp building next generation transaction, NFT, Coin and dApp. This course provides deep understanding on the working mechanism of blockchain, instructions on the cutting-edge of Web 3 tech stacks and hands-on experience on industrial level projects.</p>
-                    <p className="course_content1_text">Besides that, you’ll join Dayone talents community, meet, learn and collaborate with fellow developers.<br></br>This course will lay a solid foundation for you to get a job in Web 3 companies or start your own business.</p>
+                    <p className="course_content1_text">Besides that, you’ll join Dayone talents community, meet, learn and collaborate with fellow developers.This course will lay a solid foundation for you to get a job in Web 3 companies or start your own business.</p>
                     {
                       !isDesktop && (
                         <div className="course_content2">
