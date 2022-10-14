@@ -146,11 +146,11 @@ export const Stanford_Move_Bootcamp = () => {
                 <p className="course__overview_detail1"><b>Week 3</b></p>
                 <p className="course__overview_detail2">Move advanced</p>
                 <p className="course__overview_detail1"><b>Week 4</b></p>
-                <p className="course__overview_detail2">First Move module on the Aptos</p>
+                <p className="course__overview_detail2">First Move module on Aptos</p>
                 <p className="course__overview_detail1"><b>Week 5</b></p>
-                <p className="course__overview_detail2">First dApp on the Aptos 1</p>
+                <p className="course__overview_detail2">First dApp on Aptos 1</p>
                 <p className="course__overview_detail1"><b>Week 6</b></p>
-                <p className="course__overview_detail2">First dApp on the Aptos 2</p>
+                <p className="course__overview_detail2">First dApp on Aptos 2</p>
                 {/* <p className="course__overview_detail1"><b>Week 7</b></p>
                 <p className="course__overview_detail2">Build the future: identity, voting, exchanges, and wallets</p> */}
               </div>

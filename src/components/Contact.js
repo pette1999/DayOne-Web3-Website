@@ -26,7 +26,7 @@ export const Contact = ({status, message, onValidated}) => {
   }
   
   // const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('RSVP');
+  const [buttonText, setButtonText] = useState('Sign Up');
   // const [status, setStatus] = useState({});
 
   // const onFormUpdate = (category, value) => {
@@ -68,9 +68,9 @@ export const Contact = ({status, message, onValidated}) => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h2>
                   <span id="connect"></span>
-                  Challenge Kick off Events
+                  Move Student Challenge
                 </h2>
-                <p>Join to learn what's next after Bitcoin and Ethereum</p>
+                <p>Sign up to learn Move and build on Aptos</p>
                 {status === 'sending' && <Alert>Sending...</Alert>}
                 {(status === 'error') && <Alert variant="danger"><div dangerouslySetInnerHTML={{ __html: message }}/></Alert>}
                 {status === 'success' && <Alert variant="success">Thank you for RSVP!</Alert>}
