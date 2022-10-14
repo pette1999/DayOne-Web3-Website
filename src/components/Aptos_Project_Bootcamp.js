@@ -68,9 +68,9 @@ export const Aptos_Project_Bootcamp = () => {
                           </div>
                           <p className="course_content2_smalltitle_title">prerequisites</p>
                           <hr aria-orientation="horizontal" className="hr_space"/>
-                          <p className="course_content2_quote">"As a self-taught coder, the bootcamp gave me the right base in blockchain-related development, that I would've definitely squandered a couple years without."</p>
+                          {/* <p className="course_content2_quote">"As a self-taught coder, the bootcamp gave me the right base in blockchain-related development, that I would've definitely squandered a couple years without."</p>
                           <p className="course_content2_quoteName"><b>Krishang N.</b></p>
-                          <p className="course_content2_quoteTitle">Founding Engineer, <a target="_blank" rel="noreferrer" href="https://thirdweb.com/" className="course_content2_quoteTitleCompany">@ThirdWeb</a></p>
+                          <p className="course_content2_quoteTitle">Founding Engineer, <a target="_blank" rel="noreferrer" href="https://thirdweb.com/" className="course_content2_quoteTitleCompany">@ThirdWeb</a></p> */}
                         </div>
                       )
                     }
