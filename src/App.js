@@ -28,25 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <NavBar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          {/* <Route path="/contact" element={<MoveStudentChallenge />} /> */}
-          {/* <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/sign-up" element={<SignUp />} /> */}
-        </Routes>
-        {/* <Banner />
-        <Skills />
-        <Projects />
-        <Stanford_Move_Bootcamp />
-        <Move_Fundamentals />
-        <Aptos_Project_Bootcamp />
-        <MailchimpForm />
-        <Footer /> */}
-      </Router>
+      <NavBar />
     </div>
   );
 }
