@@ -7,8 +7,7 @@ import TrackVisibility from 'react-on-screen';
 export const Contact = ({status, message, onValidated}) => {
   const [email, setEmail] = useState('');
   const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-    
+  const [lastName, setLastName] = useState('');    
   // const formInitialDetails = {
   //   firstName: '',
   //   lastName: '',
