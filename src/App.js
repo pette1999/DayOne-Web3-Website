@@ -28,7 +28,14 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar />
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route exact path='/move_challenge' element={<MoveStudentChallenge />}></Route>
+        </Routes>
+      </Router>
+      {/* <Home /> */}
     </div>
   );
 }

@@ -13,11 +13,11 @@ export const Home = () => {
     <div>
       <Banner />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Stanford_Move_Bootcamp />
       <Move_Fundamentals />
       <Aptos_Project_Bootcamp />
-      <MailchimpForm />
+      {/* <MailchimpForm /> */}
       <Footer />
     </div>
   );

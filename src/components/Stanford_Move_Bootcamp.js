@@ -24,7 +24,7 @@ export const Stanford_Move_Bootcamp = () => {
   },[]);
 
   return (
-    <section className="course" id="course">
+    <section className="course" id="bootcamps">
       <Container>
         <Row className="align-items-center">
           <Col size={12} xl={9}>
