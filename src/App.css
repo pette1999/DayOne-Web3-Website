@@ -434,6 +434,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 80%;
 }
+.apply_button {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 0px auto;
+  text-align: center;
+  width: 80%;
+}
 .project .nav.nav-pills {
   width: 90%;
   margin: 0 auto;
@@ -475,6 +484,45 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link.active {
     border: 1px solid rgba(255, 255, 255, 1);
+}
+.project a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.project button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 14px 1.5rem;
+  font-size: 1rem;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.project button span {
+  z-index: 1;
+  position: relative;
+}
+.project button:hover {
+  color: black;
+}
+.project button::before {
+  content: "";
+  background: white;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.project button:hover::before {
+  width: 100%;
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);

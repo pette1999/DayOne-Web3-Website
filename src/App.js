@@ -17,7 +17,7 @@ import { MoveStudentChallenge } from "./pages/MoveStudentChallenge";
 
 function App() {
   useEffect(() => {
-    if (document.location.hash === "#connect") {
+    if (document.location.hash === "#bootcamp") {
       setTimeout(() => {
         document
           .querySelector("#connect")

@@ -15,13 +15,13 @@ export const Move_Student_Challenge = () => {
                 <h2>Move Student Challenge</h2>
                 <h3>DAYONE x APTOS x STANFORD</h3>
                 <p>Dayone, co-hosted with Aptos, will hold the first Move Student Challenge in Stanford University. We hope to bring together over 1,000 students to build the future in Web 3.0 using Move starting from Stanford University. You’ll be hacking for 36 hours straight but before that we will host a workshop to teach anything you need to succeed! There will be home breakfasts, prizes and rewards, and job opportunies to Top Web 3 companies! . But there will be yoga breaks, home breakfasts and maybe even puppies. Whether you’re a seasoned veteran or just getting started, we’ve got your back every step of the way. </p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                <Tab.Container id="projects-tabs" defaultActiveKey="second">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
                       <Nav.Link eventKey="first">Info Session</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Preparation</Nav.Link>
+                      <Nav.Link eventKey="second">Workshop</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Go Hack</Nav.Link>
@@ -49,9 +49,14 @@ export const Move_Student_Challenge = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                       <h3>Dayone Move Workshop / Office hours</h3>
-                      <p><b>Time:</b> 6 weeks, starts from Oct 31, 2022<br></br></p>
+                      <p><b>Time:</b> 6 weeks, starts from Nov 6, 2022<br></br></p>
                       <p><b>The Move workshop covers:</b> <br/>* Comprehensive understanding of Web 3 fundamentals<br/>* Tech stack including ETH and Aptos, Solidity and Move<br/>* Hands-on end-to-end industrial level Web 3 project experiences<br/><b>Aptos Labs</b> will hold an 1h office hour once per week.</p>
-                      <h4>Check "Stanford Move Challenge Bootcamp" below for more workshop details</h4>
+                      <p className="apply_button">
+                        <a href="/#bootcamp" rel="noreferrer">
+                          <button className=""><span>More workshop details</span></button>
+                        </a>
+                      </p>
+                      
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <h3>Onsite Challenge</h3>
