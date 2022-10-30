@@ -95,9 +95,9 @@ export const Stanford_Move_Bootcamp = () => {
                           </span>
                         </div>
                       </div>
-                      <a href="#connect" rel="noreferrer">
+                      {/* <a href="#connect" rel="noreferrer">
                         <button className=""><span>Apply for early access</span></button>
-                      </a>
+                      </a> */}
                     </div>
                   </div>
                   {
