@@ -42,16 +42,24 @@ export const NavBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="/#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")}>
-              Home
+              <HashLink to="/#home">
+                <button className="menu_button"><span>Home</span></button>
+              </HashLink>
             </Nav.Link>
             <Nav.Link href="/#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>
-              Skills
+              <HashLink to="/#skills">
+                <button className="menu_button"><span>Skills</span></button>
+              </HashLink>
             </Nav.Link>
             <Nav.Link href="/#bootcamps" className={activeLink === "bootcamps" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("bootcamps")}>
-              Bootcamps
+              <HashLink to="/#bootcamps">
+                <button className="menu_button"><span>Bootcamps</span></button>
+              </HashLink>
             </Nav.Link>
-            <Nav.Link href="/move_challenge" className={activeLink === "move_challenge" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("move_challenge")}>
-              Move Challenge
+            <Nav.Link href="/move_challenge#move_home" className={activeLink === "move_challenge" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("move_challenge")}>
+              <HashLink to="/move_challenge#move_home">
+                <button className="menu_button"><span>Move Challenge</span></button>
+              </HashLink>
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
