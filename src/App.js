@@ -17,12 +17,14 @@ import { MoveStudentChallenge } from "./pages/MoveStudentChallenge";
 
 function App() {
   useEffect(() => {
-    if (document.location.hash === "#bootcamp" || document.location.hash === "#connect") {
+    if (document.location.hash === "#bootcamp" || document.location.hash === "#connect" || document.location.hash === "#skills") {
       setTimeout(() => {
         document
           .querySelector("#connect")
+          .querySelector("#bootcamp")
+          .querySelector("#skills")
           .scrollIntoView({ behavior: "smooth", block: "start" });
-      }, 300);
+      }, 100);
     }
   });
 
