@@ -21,10 +21,18 @@ function App() {
       setTimeout(() => {
         document
           .querySelector("#connect")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 300);
+      setTimeout(() => {
+        document
           .querySelector("#bootcamp")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 300);
+      setTimeout(() => {
+        document
           .querySelector("#skills")
           .scrollIntoView({ behavior: "smooth", block: "start" });
-      }, 100);
+      }, 300);
     }
   });
 

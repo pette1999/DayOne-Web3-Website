@@ -248,6 +248,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+.menu_button {
+  color: #fff !important;
+}
 /************ Brand Css ************/
 .brand {
   display: flex;
